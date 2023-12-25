@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.color-game {
+  background-color: rgb(0, 179, 255);
+  color: white;
+  text-align: center;
+  height: 8rem;
+  transition: 0.5s;
+}
+h1 {
+  margin-top: 0px;
+  padding-top: 40px;
+}
+.new-game {
+  height: 30px;
+  background-color: rgb(233, 229, 237);
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+button {
+  border: none;
+  background-color: white;
+  transition: 0.4s;
+  font-size: 6mm;
+  font-weight: 600;
+}
+button:hover,
+.level a:hover {
+  background-color: rgb(0, 15, 181);
+  color: white;
+}
+section {
+  background-color: rgb(80, 78, 78);
+  height: 100vh;
+  padding-top: 90px;
+}
+.parent {
+  width: 700px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+}
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 179, 255);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.level a {
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+  font-size: 6mm;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  background-color: white;
+}
+
+.level {
+  height: 30px;
+  display: flex;
+  gap: 15px;
+}
+
