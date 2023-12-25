@@ -70,3 +70,45 @@ section {
   gap: 15px;
 }
 
+@media screen and (max-width: 800px) {
+  .parent {
+    width: 80%;
+    height: 14rem;
+  }
+  .child {
+    width: 30%;
+    height: 6rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  button {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  h1 {
+    font-size: 25px;
+  }
+  button {
+    font-size: 10px;
+  }
+  .new-game {
+    gap: 10px;
+  }
+  .child {
+    width: 110px;
+    height: 110px;
+  }
+  .parent {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    gap: 10px;
+  }
+  section {
+    padding-top: 10px;
+  }
+}
